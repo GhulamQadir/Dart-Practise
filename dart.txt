@@ -1,0 +1,241 @@
+void main() {
+//   print("Hello world");
+//   var abc = "hello world";
+//   var abc = 12345;
+//   print(abc);
+  
+//   "integer"
+//   int age = 16;
+//   print(age);
+  
+//   "double"
+//   double temperature = 34.5;
+//   print(temperature);
+  
+//(num)ye int or double dono values store karskta ha
+//   num age = 5;
+//   num temperature = 34.5;
+//   print('Age is ${age}');
+//   print('Temp is ${temperature}');
+  
+//   "String"
+//   String a = "GQ12";
+//   print(a);
+  
+//   "boolean"
+//   int num1 = 10;
+//   int num2 = 11;
+//   bool check = num1 > num2;
+//   print(check);
+  
+//   operations "Add"
+//   int num1 = 3;
+//   int num2 = 46;
+//   int output = num1 + num2;
+//   print('Output is: ${output}');
+  
+//   "Sutract"
+//   int num1 = 3;
+//   int num2 = 46;
+//   int output = num1 - num2;
+//   print('Output is: ${output}');
+  
+//   "Multiply"
+//   int num1 = 3;
+//   int num2 = 46;
+//   int output = num1 * num2;
+//   print('Output is: ${output}');
+  
+  
+//   "Divide"
+//   int num1 = 7;
+//   int num2 = 10;
+//   double output = num1 / num2;
+//   print('Output is: ${output}');
+  
+//   "Get the roundoff(integer) value"
+//   int num1 = 50;
+//   int num2 = 24;
+//   int output = num1 ~/ num2;
+//   print('Output is: ${output}');
+  
+//   "Get the reminder value"
+//   int num1 = 13;
+//   int num2 = 5;
+//   int output = num1 % num2;
+//   print('Output is: ${output}');
+  
+  
+//   "Post increment/decrement"
+//   int a = 4;
+//   int b = a++;
+//   print(b);
+  
+//   "Pre increment/decrement"
+//   int c = 3;
+//   int d = ++c;
+//   print(c);
+  
+//   "Post/Pre increment/decrement example"
+//   int x = 12;
+//   int y = x++ - ++x + --x + x++ - x-- - --x;
+//         12 - 14  +  13 + 13  - 14  - 12;
+//   print(y);
+  
+  
+//   Greater than sign ">"
+//   int age = 16;
+//   bool check = age > 12;
+//   print(check);
+  
+//   Less than sign "<"
+//   int age = 21;
+//   bool check = age < 21;
+//   print(check);
+  
+//   Greater than or equal to ">="
+//   int age = 18;
+//   bool check = age >= 17;
+//   print(check);
+  
+//   Less than or equal to "<="
+//   int age = 20;
+//   bool check = age <= 17;
+//   print(check);
+  
+//   Equals to "=="
+//   int age = 20;
+//   bool check = age == 10;
+//   print(check);
+  
+//   Not equal to "!="
+//   int age = 20;
+//   bool check = age != 17;
+//   print(check);
+  
+//  and "&&" necessary to have all conditions are true otherwise it will be return false
+//   int age1 = 20;
+//   int age2 = 30;
+//   bool check = age1 < age2 && age2 < 40;
+//   print(check);
+  
+//   or "||" if only one condition is true it will give you an output
+//   int age1 = 20;
+//   int age2 = 30;
+//   bool check = age1 > age2 || age2 < 40;
+//   print(check);
+  
+//   Not equal to "!(abc > 20)"
+//   int age = 30;
+//   bool check = !(age < 20);
+//   print(check);
+  
+  
+//   "if else conditions"
+//   int a = 16;
+//   int b = 11;
+//   if(a==b){
+//     print("A is equal to b");
+//   }else if(a <= b){
+//     print("A is less than b");
+//   }else if(a >= 15){
+//     print("A is greater than b");
+//   }else{
+//     print("A is not equal to b");
+//   }
+  
+  
+//   List/Array
+//   var list1 = ["Ghulam Qadir", 2, true, "Noman"];
+//   list1[3] = "Faizan";
+//   list1.replaceRange(1,3,["Abdullah", false]);
+//   print(list1);
+  
+//   var list2 = [2, 7, 34, 4, 16, 21];
+//   var list3 = ["GQ", "Abdullah", "Noman", "Faizan"];
+  
+//   list3.sort();
+//   print(list3);
+  
+  
+  var list4 = [];
+//   if(list4.isEmpty){
+//     print("List5 is Empty!");
+//   }
+  list4.add("GQ");
+//   list4.add("Noman");
+  print(list4);
+//   if(list4.isNotEmpty){
+//     print("List is not empty");
+//   }
+  
+//   list4.clear();
+//   print(list4);
+  
+//   Reverse method
+//   var list5 = [2, 5, 7, 1, 2, 4, 8];
+//   var reverse = List.of(list5.reversed);
+//   print(reverse);
+  
+//   addAll method
+//   list5.addAll([15, 25, 13]);
+//   print(list5);
+  
+//   var list6 = [12, 6, 17];
+//   var list7 = [21, 1, 44];
+//   list6.addAll(list7);
+//   print(list6);
+//   list6.sort();
+//   print(list6);
+  
+//   insert method
+//   list6.insert(4, 70);
+//   print(list6);
+  
+//   insert all method 
+//   var list8 = ["Ali", "Ghous", "Umair"];
+//   list8.insertAll(2, ["Noman", "GQ", "Faizan"]);
+//   print(list8);
+  
+//   remove method
+//   list8.remove("Ghous");
+//   print(list8);
+  
+//   removeAt method  ("Remove at particular position")
+//   list8.removeAt(0);
+//   print(list8);
+  
+//   remove last method
+//   list8.removeLast();
+//   print(list8);
+  
+//   remove where method
+//   var list9 = [1, -2, -24, 7, 33];
+//   list9.removeWhere((e) => e > 0);
+//   print(list9);
+  
+//   removeRange method
+//   var list8 = ["Ali", "Ghous", "Umair", "Bilal"];
+//   list8.removeRange(1,3);
+//   print(list8);
+  
+//   retainWHere method
+//   var list9 = [1, -2, -24, 7, 33];
+//   list9.retainWhere((e) => e > 1);
+//   print(list9);
+  
+  
+//   Dictionary
+  
+//   var map1 = {1:"GQ", 2:"Noman", 3:"Faizan", 4:"Zain"};
+//   print(map1);
+//   print(map1.keys);
+//   print(map1.values);
+//   print(map1.length);
+  
+//   add method in map
+//   var map1 = {1:"GQ", 2:"Noman", 3:"Faizan", 4:"Zain"};
+//   map1[5] = "Abdullah";
+//   print(map1);
+    
+}
