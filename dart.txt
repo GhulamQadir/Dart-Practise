@@ -158,13 +158,13 @@ void main() {
 //   print(list3);
   
   
-  var list4 = [];
+//   var list4 = [];
 //   if(list4.isEmpty){
 //     print("List5 is Empty!");
 //   }
-  list4.add("GQ");
+//   list4.add("GQ");
 //   list4.add("Noman");
-  print(list4);
+//   print(list4);
 //   if(list4.isNotEmpty){
 //     print("List is not empty");
 //   }
@@ -234,8 +234,53 @@ void main() {
 //   print(map1.length);
   
 //   add method in map
-//   var map1 = {1:"GQ", 2:"Noman", 3:"Faizan", 4:"Zain"};
+//   var map1 = {1:"GQ", 2:"Noman", 3:"Faizan",  4:"Zain"};
 //   map1[5] = "Abdullah";
 //   print(map1);
-    
+  
+//   putIfAbsent method "if key is not present"
+//   var map2 = {1:"Apple", 2:"Mango", 4:"Banana"};
+//   var put = map2.putIfAbsent(3, ()=> 
+//   "Orange");
+//   print(map2);
+  
+//   addAll in dictionary/map
+//   var map2 = {'1':"Apple", 2:"Mango", 4:"Banana"};
+//   map2.addAll({'name':"GQ", 'email':"GQ@gmail.com"});
+//   print('Values after merging ${map2}');
+  
+//   example
+//   var students = {1984:["Ghulam Qadir", 16, "B"], 1660:["Ali", 17, "C"]};
+//   print(students);
+  
+//   remove method
+//   var students = {1984:["Ghulam Qadir", 16, "B"], 1660:["Ali", 17, "C"], 34:"no name"};
+//   students.remove(1660);
+//   print(students);
+  
+//   removeWhere method in map/dictionary
+//   var map2 = {'1':"Apple", 2:"Mango", 4:"Banana"};
+//   map2.removeWhere((key, value) => value.startsWith("A")
+//     );
+//   print(map2);
+  
+//   merge method(1)
+//   var n1 = {1:"GQ", 2:"Noman"};
+//   var n2 = {3:"Faizan", 4:"Abdullah"};
+//   var addNames = {}..addAll(n1)..addAll(n2);
+//   print(addNames);
+  
+//   merge method(2)
+//   var n1 = {1:"GQ", 2:"Noman"};
+//   var n2 = {3:"Faizan", 4:"Abdullah"};
+//   var n3 = {5:"Zain"};
+//   var addNames = {...n1,...n2,...n3};
+//   print(addNames);
+  
+//   fromIterables method
+  var keys = {1,2,3,4,5};
+  var values = {"GQ","Zain","Abdullah","Faizan","No"};
+  var iterate = Map.fromIterables(keys,values);
+  print(iterate);
+  
 }
